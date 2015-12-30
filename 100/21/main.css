@@ -3,13 +3,16 @@
 	height: 5em;
 	background: red;
 	position:relative;
+
+}
+
+body:hover .box{
 	animation:myfirst 5s;
 	-moz-animation:myfirst 5s; /* Firefox */
 	-webkit-animation:myfirst 5s; /* Safari and Chrome */
 	-o-animation:myfirst 5s; /* Opera */
-
 }
-.box:hover @keyframes myfirst{
+ @keyframes myfirst{
 0%   {background:red; left:0px; top:0px;}
 25%  {background:yellow; left:200px; top:0px;}
 50%  {background:blue; left:200px; top:200px;}
