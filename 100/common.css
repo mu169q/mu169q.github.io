@@ -1,5 +1,6 @@
 /*----common-----*/
 body{
+	font-size: 63%;
 	margin: 0px;
 	padding: 0px;
  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -20,4 +21,18 @@ ul {
 	margin: 0px;
 
 
+}
+h2{
+	font-size: 1.5em;
+}
+h3{
+	font-size: 1em;
+}
+@media (min-width: 500px){
+	h2 {
+		font-size: 2.5em;
+	}
+	h3{
+		font-size: 1.5em;
+	}
 }
