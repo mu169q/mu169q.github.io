@@ -1,0 +1,30 @@
+.circle{
+	background-color: lightseagreen;
+	width: 70px;
+	height: 70px;
+	margin: 40px auto;
+	
+	transition:all 1s;
+
+	
+}
+.red{
+	
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	margin: 40px auto;
+	transform: rotate(45deg);/*旋转正值为顺时针负为逆时针*/
+	transform-origin:50% 50%;/*调整中心基点*/
+	-ms-transform: rotate(45deg); /* IE 9 */
+	-ms-transform-origin:50% 50%; /* IE 9 */
+	-webkit-transform: rotate(45deg); /* Safari and Chrome */
+	-webkit-transform-origin:50% 50%; /* Safari and Chrome */
+	-moz-transform: rotate(45deg); /* Firefox */
+	-moz-transform-origin:50% 50%; /* Firefox */
+	-o-transform: rotate(45deg); /* Opera */
+	-o-transform-origin:50% 50%; /* Opera */
+
+
+}
+
