@@ -91,7 +91,7 @@
 	}
 }
 
-@media (min-width: 500px){
+@media (min-width: 800px){
 	.second{
 		float: left;
 		width: 50%;
