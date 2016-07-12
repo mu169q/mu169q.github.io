@@ -1,9 +1,4 @@
-<pre>
-<code>
-    
-    ```html
+```html
     <html>
-        <div>asasd</div>
+    <div>asasd</div>
     </html>
-</code>
-</pre>
